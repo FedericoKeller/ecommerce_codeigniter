@@ -1,0 +1,37 @@
+table,th,td,tbody {
+
+width: 100%;
+        white-space: nowrap;
+    }
+
+    .scrollableTable {
+      max-height: 445px;
+      overflow-y: scroll;
+    }
+
+    textarea {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        width: 100%;
+    }
+
+    #noclick{
+      pointer-events: none;
+      background-color: #e0e0e0;
+    }
+
+    body{
+      margin: 0;
+      background-color: #e0e0e0;
+    }
+
+    th{
+      border: none;
+    }
+
+.newError{
+  color: red;
+
+}
